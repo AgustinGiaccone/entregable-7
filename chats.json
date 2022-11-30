@@ -1,0 +1,17 @@
+[
+  {
+    "email": "Juan",
+    "date": "",
+    "textoMensaje": "¡Hola! ¿Que tal?"
+  },
+  {
+    "email": "Pedro",
+    "date": "",
+    "textoMensaje": "¡Muy bien! ¿Y vos?"
+  },
+  {
+    "email": "Ana",
+    "date": "",
+    "textoMensaje": "¡Genial!"
+  }
+]

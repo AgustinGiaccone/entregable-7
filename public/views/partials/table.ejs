@@ -1,0 +1,19 @@
+<h1 style="text-align: center;">prductos</h1>
+<div class="table-responsive">
+        <table class="table table-dark">
+            <tr style="color: yellow;">
+                <th>id</th>
+                <th>Nombre</th>
+                <th>Precio</th>
+                <th>Imagen</th>
+            </tr>
+                <% listProd.forEach(prod => { %>
+                    <tr>
+                        <td> <%= prod.id_articulo %> </td>
+                        <td> <%= prod.title %> </td>
+                        <td> <%= prod.price %> </td>
+                        <td> <img src="<%= prod.thumbnail %>" alt="<%= prod.title %>" width="120"> </td>
+                    </tr>
+                <% }) %>
+        </table>
+</div>
